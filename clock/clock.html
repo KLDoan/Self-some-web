@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <script src="clock.js"></script>
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class="opening" onmouseover="mouse_over_text">Nice to see you in Digital auto clock</h1>
+    <h1 class="opening" onmouseover="mouse_over_text">Today time is</h1>
+    <div id="UTCday">
+        <h2 id="day"></h2>
+        <i class="fa-solid fa-clock"></i>
+
+    </div>
+    <div id="digital_clock">
+        <h2 id="clock"></h2>
+        <i class="fa-solid fa-calendar-days"></i>
+
+    </div>
+    <footer id="footer_web" onmouseover="text_over()" onmouseout="text_out()">This had been
+        created by LongDoan(@KheLong) in 24/7/2022 on 6.37pm</footer>
+    <div class="btn"> <button type="submit" id="btn_reset" onclick="reset_text()">Click here to reset the text
+            above</button>
+    </div>
+</body>
+
+</html>

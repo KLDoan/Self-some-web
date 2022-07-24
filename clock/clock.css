@@ -1,0 +1,65 @@
+html {
+    background: linear-gradient(to right, red, blue, orange, pink);
+
+
+}
+
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background: white;
+}
+
+#UTCday {
+    background: white !important;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#UTCday:hover {
+    background: white !important;
+    color: red;
+}
+
+#digital_clock {
+    background: white !important;
+    width: 100%;
+    height: 10vh;
+    display: block;
+    display: flex;
+    justify-content: center;
+
+}
+
+#digital_clock:hover {
+    background: white !important;
+    color: red;
+
+}
+
+#footer_web {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.opening {
+    display: flex;
+    justify-content: center;
+}
+i {
+    font-size: 10vh;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
